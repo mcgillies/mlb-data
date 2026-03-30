@@ -43,4 +43,15 @@ from .players import (
     get_player_id,
 )
 
+from .pitch_stats import (
+    get_statcast_pitches,
+    get_pitcher_arsenal,
+    get_pitcher_pitch_type_stats,
+    get_batter_pitch_stats,
+    get_batter_pitch_type_stats,
+    get_plate_appearances,
+    get_pitcher_profiles,
+    get_batter_profiles,
+)
+
 __version__ = "0.1.0"
